@@ -37,7 +37,7 @@ def minTemp(a, b):
         return a
     return b
 
-minimumTemperature = reduce(min, celsiusList)
+minimumTemperature = reduce(minTemp, celsiusList)
 print("Minimum temperature:", minimumTemperature)
 
 def maxTemp(a, b):
@@ -45,7 +45,7 @@ def maxTemp(a, b):
         return a
     return b
 
-maximumTemperature = reduce(max, celsiusList)
+maximumTemperature = reduce(maxTemp, celsiusList)
 print("Maximum temperature:", maximumTemperature)
 
 print("*****CELSIUS LIST TO FAHRENHEIT LIST*****")

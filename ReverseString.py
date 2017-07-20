@@ -11,7 +11,7 @@ print(reverseString("Reverse Me"))
 def reverseRecursively(reverseMe):
     if len(reverseMe) == 0:
         return ""
-    return reverseMe[len(reverseMe)-1] +  reverseRecursively(reverseMe[:len(reverseMe) - 1])
+    return reverseMe[len(reverseMe)-1] + reverseRecursively(reverseMe[:len(reverseMe) - 1])
 
 print("*****Reverse String Recursively*****")
 print(reverseRecursively("Reverse Me"))
